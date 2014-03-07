@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kosynierzy/omniauth-kosynierzy.png)](https://travis-ci.org/kosynierzy/omniauth-kosynierzy)
+
 # Omniauth::Kosynierzy
 
 Omniauth Strategy for Kosynierzy
