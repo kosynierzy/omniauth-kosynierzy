@@ -5,12 +5,12 @@ require 'omniauth/kosynierzy/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-kosynierzy"
-  spec.version       = Omniauth::Kosynierzy::VERSION
+  spec.version       = OmniAuth::Kosynierzy::VERSION
   spec.authors       = ["Jan Dudulski"]
   spec.email         = ["jan@dudulski.pl"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{OmniAuth strategy for Kosynierzy}
+  spec.summary       = %q{OmniAuth strategy for Kosynierzy}
+  spec.homepage      = "http://kosynierzy.info/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,7 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+
+  spec.add_runtime_dependency "omniauth-oauth2"
 end
