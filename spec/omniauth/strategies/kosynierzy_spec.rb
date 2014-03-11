@@ -32,5 +32,6 @@ describe OmniAuth::Strategies::Kosynierzy do
     end
 
     it { expect(subject.info).to have_key(:email) }
+    it { expect(subject.info).to have_key(:username) }
   end
 end
