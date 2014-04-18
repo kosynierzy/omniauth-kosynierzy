@@ -18,7 +18,7 @@ describe OmniAuth::Strategies::Kosynierzy do
     end
 
     describe 'site' do
-      it { expect(subject.options.client_options.site).to eq('http://account.kosynierzy.info') }
+      it { expect(subject.options.client_options.site).to eq('https://account.kosynierzy.info') }
     end
 
     describe 'authorize_url' do
