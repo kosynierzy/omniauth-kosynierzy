@@ -6,7 +6,7 @@ module OmniAuth
       option :name, :kosynierzy
 
       option :client_options, {
-        site: ENV.fetch('ACCOUNT_KOSYNIERZY_HOST') { 'http://account.kosynierzy.info' },
+        site: ENV.fetch('ACCOUNT_KOSYNIERZY_HOST') { 'https://account.kosynierzy.info' },
         authorize_url: '/oauth/authorize'
       }
 
