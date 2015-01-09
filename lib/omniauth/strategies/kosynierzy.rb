@@ -16,7 +16,13 @@ module OmniAuth
         {
           email: raw_info['email'],
           username: raw_info['username'],
-          roles: raw_info['roles']
+          roles: raw_info['roles'],
+          firstname: raw_info['firstname'],
+          lastname: raw_info['lastname'],
+          personal_identity_number: raw_info['personal_identity_number'],
+          identity_card_number: raw_info['identity_card_number'],
+          phone_number: raw_info['phone_number'],
+          address: raw_info['address']
         }
       end
 
